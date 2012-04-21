@@ -1,0 +1,12 @@
+<Tiny-program > : begin <statement-list> end
+<statement-list> : <statement-list> <statement> | <statement>
+<statement> : print ( <exp-list> ) ;
+<statement> : ID := <exp> ;
+<statement> : read ( <id-list> ) ;
+<id-list> : <id-list> , ID | ID
+<exp-list> : <exp-list> , <exp> | <exp>
+<mul-exp> : ID | INTNUM | ( <exp> )
+<exp> : <exp> <add-op> <exp> | <mul-exp>
+<mul-exp> : <mul-exp> <mul-op> <mul-exp>
+<add-op> : + | -
+<mul-op> : * | %
