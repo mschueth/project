@@ -60,14 +60,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\school-project\final-project\grammer.cpp" />
-    <ClCompile Include="..\..\school-project\final-project\main.cpp" />
-    <ClCompile Include="..\..\school-project\final-project\scanner.cpp" />
+    <ClCompile Include="..\school-project\final-project\grammer.cpp" />
+    <ClCompile Include="..\school-project\final-project\main.cpp" />
+    <ClCompile Include="..\school-project\final-project\scanner.cpp" />
     <ClCompile Include="testing.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\school-project\final-project\grammer.h" />
-    <ClInclude Include="..\..\school-project\final-project\scanner.h" />
+    <ClInclude Include="..\school-project\final-project\grammer.h" />
+    <ClInclude Include="..\school-project\final-project\scanner.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
